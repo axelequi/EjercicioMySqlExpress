@@ -1,0 +1,32 @@
+{{#each alumnos}}
+  <form method="post" action="/alumnos/confirmarmodifica">
+  Ingrese nueva descripcion del articulo:
+  <input type="NombreAlumno" name="NombreAlumno" size="50" value="{{NombreAlumno}}">
+  <br>
+  Ingrese nuevo apellido del alumno:
+  <input type="text" name="ApellidoAlumno" size="10" value="{{ApellidoAlumno}}">
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}">  
+  <br>
+  Ingrese nuevo Curso del alumno:
+  <input type="text" name="CursoAlumno" size="10" value="{{CursoAlumno}}">
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}">  
+  <br>
+  Ingrese nueva division del alumno:
+  <input type="text" name="DivisionAlumno" size="10" value="{{DivisionAlumno}}">
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}">  
+  <br>
+  Ingrese nuevo turno del alumno:
+  <input type="text" name="TurnoAlumno" size="10" value="{{TurnoAlumno}}">
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}">  
+  <br>
+  Ingrese nueva fecha de nacimiento del alumno:
+  <input type="text" name="FechaNacAlumno" size="10" value="{{FechaNacAlumno}}">
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}">  
+  <br>
+  Ingrese nuevo email del alumno:
+  <input type="text" name="EmailAlumno" size="10" value="{{EmailAlumno}}">
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}">  
+  <br>
+  <input type="submit" value="Modificar">
+  </form>
+{{/each}}  
